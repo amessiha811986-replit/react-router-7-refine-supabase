@@ -6,7 +6,7 @@ export function Welcome() {
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-16 min-h-0">
         <header className="flex flex-col items-center gap-9">
-          <h2>Welcome to...</h2>
+          <h1>Welcome to...</h1>
           <div className="w-[500px] max-w-[100vw] p-4">
             <img
               src={logoLight}
@@ -66,7 +66,7 @@ const resources = [
           strokeLinecap="round"
         />
       </svg>
-    ),
+    )
   },
   {
     href: "https://rmx.as/discord",
@@ -85,6 +85,6 @@ const resources = [
           strokeWidth="1.5"
         />
       </svg>
-    ),
-  },
+    )
+  }
 ];
